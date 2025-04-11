@@ -18,7 +18,7 @@ Este script en Python analiza el HTML renderizado de una página web para identi
   - Python 3.x
   - BeautifulSoup4
 
-## 🧪 Uso
+## 🐍 Uso del script .py
 
 ```bash
 python tagParser.py archivo.html
