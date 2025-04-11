@@ -9,3 +9,12 @@ Advertencia	                                            Explicación
 ⚠️ Saltos de jerarquía	                                Ej. pasar de h2 a h5 sin h3/h4 intermedios
 ⚠️ Títulos en el orden incorrecto	                      Como ver un h3 antes que cualquier h2
 ⚠️ Encabezados vacíos	                                  Títulos sin contenido de texto visible
+
+
++ Para usar el archivo compilado sin necesidad de instalar Python:
+
+Abrir la carpeta Compilado. Dentro se encuentra el archivo tagParser.exe. Este se puede ejecutar arrastrando un archivo de texto encima, o se puede activar desde el CMD con el siguiente comando:
+
+./tagParser.exe archivo.txt
+
+El resultado se guarda en la misma carpeta donde se encuentre archivo.txt con el nombre archivo_output.txt
