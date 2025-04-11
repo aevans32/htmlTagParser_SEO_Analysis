@@ -36,3 +36,4 @@ tagParser.exe archivo.html
  
 🔁 También puedes arrastrar el archivo txt encima de tagParser.exe
 
+Para ver un ejemplo de input y output puedes revisar la carpeta Ejemplo.
