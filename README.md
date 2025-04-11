@@ -24,4 +24,15 @@ Este script en Python analiza el HTML renderizado de una página web para identi
 python tagParser.py archivo.html
 ```
 
-fdsafasdfasd
+## 💻 Uso del archivo .exe (sin instalar Python)
+
+ 1- Ve a la carpeta Compilado/ donde está el archivo tagParser.exe.
+ 2- Abre PowerShell o CMD en esa ubicación.
+ 3- Ejecuta el programa pasando como parámetro el archivo HTML o TXT con contenido HTML, 
+
+```bash
+tagParser.exe archivo.html
+```
+ 
+🔁 También puedes arrastrar el archivo txt encima de tagParser.exe
+
