@@ -26,9 +26,9 @@ python tagParser.py archivo.html
 
 ## 💻 Uso del archivo .exe (sin instalar Python)
 
- 1- Ve a la carpeta Compilado/ donde está el archivo tagParser.exe.
- 2- Abre PowerShell o CMD en esa ubicación.
- 3- Ejecuta el programa pasando como parámetro el archivo HTML o TXT con contenido HTML, 
+ 1. Ve a la carpeta Compilado/ donde está el archivo tagParser.exe.
+ 2. Abre PowerShell o CMD en esa ubicación.
+ 3. Ejecuta el programa pasando como parámetro el archivo HTML o TXT con contenido HTML, 
 
 ```bash
 tagParser.exe archivo.html
