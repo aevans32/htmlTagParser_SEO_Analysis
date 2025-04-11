@@ -13,12 +13,12 @@ Este script en Python analiza el HTML renderizado de una página web para identi
   - ⚠️ Saltos en la jerarquía de encabezado (`h2` → `h5`)
   - ⚠️ Orden de aparición incoherente (`h3` antes de `h2`)
 
-## 🧪 Uso
-
-```bash
-python tagParser.py archivo.html
-
 ## 📦 Requisitos
 
   - Python 3.x
   - BeautifulSoup4
+
+## 🧪 Uso
+
+```bash
+python tagParser.py archivo.html
