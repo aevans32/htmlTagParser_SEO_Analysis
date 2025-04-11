@@ -1,20 +1,24 @@
-Este script analiza el texto copiado del segmento <body> del desarrollo compilado de un sitio web con la finalidad de identificar cuantos tags de titulos y subtitulos (h1, h2, h3, h4, h5, h6) son usados.
+# 🧠 SEO Header Analyzer
 
-Al mismo tiempo identifica los posibles errores de acuerdo a las mejores prácticas SEO.
+Este script en Python analiza el HTML renderizado de una página web para identificar cuántas veces se usan las etiquetas `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` y `<h6>`. También detecta si estas etiquetas están siendo usadas en un orden lógico o si hay saltos que podrían afectar la estructura SEO de la página.
 
-Los posibles errores son:
-Advertencia	                                            Explicación
-❌ Falta de h1	                                        Toda página debería tener un único h1 principal
-❌ Más de un h1	                                        Debería haber solo uno por página
-⚠️ Saltos de jerarquía	                                Ej. pasar de h2 a h5 sin h3/h4 intermedios
-⚠️ Títulos en el orden incorrecto	                      Como ver un h3 antes que cualquier h2
-⚠️ Encabezados vacíos	                                  Títulos sin contenido de texto visible
+## ✅ Funcionalidades
 
+- Cuenta las veces que se usa cada tipo de encabezado (`h1` a `h6`)
+- Construye una jerarquía lógica en función del orden de aparición y del nivel de los encabezados
+- Genera advertencias SEO automáticas, como:
+  - ❌ Falta de `<h1>`
+  - ❌ Múltiples `<h1>` en la misma página
+  - ⚠️ Encabezados vacíos
+  - ⚠️ Saltos en la jerarquía de encabezado (`h2` → `h5`)
+  - ⚠️ Orden de aparición incoherente (`h3` antes de `h2`)
 
-+ Para usar el archivo compilado sin necesidad de instalar Python:
+## 🧪 Uso
 
-Abrir la carpeta Compilado. Dentro se encuentra el archivo tagParser.exe. Este se puede ejecutar arrastrando un archivo de texto encima, o se puede activar desde el CMD con el siguiente comando:
+```bash
+python tagParser.py archivo.html
 
-./tagParser.exe archivo.txt
+## 📦 Requisitos
 
-El resultado se guarda en la misma carpeta donde se encuentre archivo.txt con el nombre archivo_output.txt
+  - Python 3.x
+  - BeautifulSoup4
