@@ -1,0 +1,28 @@
+=== Encabezados encontrados ===
+H1: 5
+H2: 2
+H3: 12
+
+=== Jerarquía lógica ===
+H1: Vínculos de accesibilidad
+H1: Filtros y temas
+H1: Resultados de búsqueda
+ H2: Resultado web con vínculos a sitio
+  H3: Reddit - The heart of the internet
+  H3: R/espanol
+  H3: r/PERU
+  H3: Login
+  H3: R/books
+  H3: R/travel
+ H2: Resultados de Twitter
+  H3: Reddit, Inc. (@Reddit) · X
+  H3: Reddit
+  H3: Reddit Inc Homepage
+  H3: Reddit - Apps on Google Play
+  H3: Reddit on the App Store
+  H3: Reddit - Wikipedia, la enciclopedia libre
+H1: Navegación de páginas
+H1: Vínculos a pie de página
+
+=== Advertencias SEO ===
+Advertencia: Hay más de un <H1> en la página (debería haber sólo uno).
