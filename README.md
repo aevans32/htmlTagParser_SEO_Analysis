@@ -22,3 +22,6 @@ Este script en Python analiza el HTML renderizado de una página web para identi
 
 ```bash
 python tagParser.py archivo.html
+```
+
+fdsafasdfasd
